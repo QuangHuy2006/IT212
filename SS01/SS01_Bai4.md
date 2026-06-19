@@ -1,0 +1,5 @@
+- Đáp án lựa chọn : Prompt 2
+- Prompt 2 mang lại kết quả tối ưu và chính xác nhất nhờ tuân thủ chặt chẽ nguyên tắc thiết kế câu lệnh hiệu quả (Prompt Engineering) với đầy đủ mục tiêu, bối cảnh và ràng buộc rõ ràng:
+    - Xác định rõ giải pháp kỹ thuật: Thay vì nói chung chung, Prompt 2 chỉ định cụ thể công nghệ cần dùng là Java Stream API để thay thế cho vòng lặp for truyền thống.
+    - Đặt ra tiêu chí đánh giá rõ ràng: Nêu rõ mục đích đầu ra là hướng tới mã nguồn ngắn gọn, dễ bảo trì và yêu cầu AI phải giải thích lý do tối ưu.
+- Lý do Prompt 1 chưa tốt : vì Mơ hồ và thiếu bối cảnh: Câu lệnh "chạy nhanh hơn" quá chung chung và không cung cấp bất kỳ chỉ dẫn nào về mặt nghiệp vụ hoặc kiến trúc mong muốn, sai lệch mục tiêu tối ưu: Về mặt bản chất, việc chuyển từ vòng lặp for cơ bản sang Java Stream API trong tình huống này chủ yếu giúp code sạch hơn (Clean Code) và dễ bảo trì hơn, chứ không làm tăng tốc độ xử lý của CPU (thậm chí Stream còn có một chút overhead về mặt hiệu năng so với vòng lặp for truyền thống). Do đó, đặt mục tiêu "chạy nhanh hơn" dễ khiến AI đưa ra các giải pháp không thực sự giải quyết được bài toán tối ưu hóa mã nguồn toàn diện.
